@@ -1,0 +1,21 @@
+{
+  "name": "dnah/specification",
+  "type": "library",
+  "description": "Implementation of Specification Pattern",
+  "homepage": "https://github.com/dnahrebecki/specification-pattern",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Nahrebecki",
+      "email": "daniel.nahrebecki@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dnah\\Specification": "src"
+    }
+  }
+}
