@@ -3,4 +3,11 @@ php:
   - '5.6'
   - '7.0'
 
+addons:
+  code_climate:
+    repo_token: 685e051f2fd985f43d0d75ba2675ba84660d7c47
+
 before_script: composer install
+
+after_script:
+  - vendor/bin/test-reporter
