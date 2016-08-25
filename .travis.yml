@@ -5,7 +5,7 @@ php:
 
 addons:
   code_climate:
-    repo_token: 980260e831082ad13e0ee5eb76f0d3889b0cd027
+    repo_token: $CODECLIMATE_REPO_TOKEN
 
 before_script: composer install
 
