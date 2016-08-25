@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dnahrebecki/specification-pattern.svg?branch=master)](https://travis-ci.org/dnahrebecki/specification-pattern)
+
 # Table of contents
 1. [Description](#description)
 1. [Installation](#install)
