@@ -17,5 +17,5 @@ interface ValidatorInterface
     /**
      * @return ResultInterface
      */
-    public function getResult();
+    public function result();
 }
