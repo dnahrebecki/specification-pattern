@@ -2,7 +2,7 @@
 
 namespace Dnah\Specification\Validator;
 
-use Dnah\Specification\Validator\Result\ResultInterface;
+use Dnah\Specification\Specification\SpecificationInterface;
 
 interface ValidatorInterface
 {
@@ -14,8 +14,14 @@ interface ValidatorInterface
      */
     public function isValid($value, array $context = []);
 
+//    @todo rethink architecture. Maybe ResultInterface::messages() should be moved to validators?
+//    /**
+//     * @return ResultInterface
+//     */
+//    public function result();
+
     /**
-     * @return ResultInterface
+     * @return SpecificationInterface
      */
-    public function result();
+    public function specification();
 }
