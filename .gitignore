@@ -2,3 +2,4 @@
 composer.lock
 vendor
 tests/results
+build/logs/clover.xml
